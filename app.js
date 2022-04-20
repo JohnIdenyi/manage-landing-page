@@ -9,7 +9,7 @@ function validateForm(e) {
     } else {
         showInfo("Thank you for subscribing to our newsletter!");
     }
-    
+
     e.preventDefault();
 }
 
@@ -30,6 +30,7 @@ function showError(msg) {
     // Clear error after 3 secs
     setTimeout(clearMessage, 4000);
 }
+
 
 // show Info
 function showInfo(msg) {
