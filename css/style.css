@@ -36,6 +36,9 @@ body {
     padding: 10px 15px;
     border-radius: 20px;
 }
+.error-msg {
+    margin: 10px 0;
+}
 
 .btn:hover {
     background-color: var(--DarkBlue);
@@ -166,6 +169,12 @@ nav ul a {
     padding: 10px;
 }
 
+.testimonials-container h2 {
+    color: var(--DarkBlue);
+    font-size: 2rem;
+    margin-bottom: 60px;
+}
+
 .testimonials-container .flex-list {
     display: flex;
     align-items: center;
@@ -174,16 +183,14 @@ nav ul a {
 
 .testimonials-container .item {
     padding: 20px;
+    background-color: var(--VaryLightGray);
+    margin: 10px;
+    border-radius: 5px;
 }
 
 .testimonials-container .item img{
     width: 15%;
-}
-
-.testimonials-container h2 {
-    color: var(--DarkBlue);
-    font-size: 2rem;
-    margin-bottom: 25px;
+    margin-top: -70px;
 }
 
 .testimonials-container .item h3 {
@@ -198,6 +205,8 @@ nav ul a {
 
 /* Cta section */
 #cta {
+    background-image: url(../images/bg-simplify-section-desktop.svg);
+    background-repeat: no-repeat;
     background-color: var(--BrightRed);
     margin-top: 50px;
     padding: 50px 0;
@@ -265,7 +274,7 @@ footer {
     margin-bottom: 60px;
 }
 
-.footer-container .form input[type="text"] {
+.footer-container .form input[type="email"] {
     border: none;
     padding: 12px;
     border-radius: 20px;
@@ -408,6 +417,7 @@ footer {
 
     /* End of Footer section */
     #cta {
+        background-image: url(../images/bg-simplify-section-mobile.svg);
         padding: 70px 0;
     }
 
