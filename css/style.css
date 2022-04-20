@@ -443,7 +443,7 @@ footer {
         text-align: center;
     }
 
-    .mobile-container form input[type="text"] {
+    .mobile-container form input[type="email"] {
         border: none;
         padding: 12px;
         border-radius: 20px;
