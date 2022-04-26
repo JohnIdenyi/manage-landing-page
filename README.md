@@ -1,4 +1,4 @@
 # Manage Site  
 
-![](./images/screenshot.jpg)
+![](./images/screenshot%20(2).jpg)
 
