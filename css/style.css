@@ -82,6 +82,10 @@ nav ul a:hover {
     cursor: pointer;
 }
 
+.hamburger:focus {
+    outline: none;
+}
+
 /* Hero section */
 .hero {
     display: flex;
