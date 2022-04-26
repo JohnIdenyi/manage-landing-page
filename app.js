@@ -1,8 +1,11 @@
 const form = document.querySelector("#my-form");
 const emailInput = document.querySelector("#email");
 const errorMsg = document.querySelector(".error-msg");
+const hamburger = document.querySelector(".hamburger");
+const navUl = document.querySelector(".nav-ul");
 
 form.addEventListener("submit", validateForm);
+hamburger.addEventListener("click", menuBar);
 
 function validateForm(e) {
     if (emailInput.value === "") {
@@ -26,4 +29,9 @@ function showInfo(msg, color) {
 // Clear message
 function clearMessage() {
     document.querySelector(".error-msg").textContent = "";
+}
+
+// hamburger
+function menuBar() {
+    navUl.classList.toggle("show");
 }
