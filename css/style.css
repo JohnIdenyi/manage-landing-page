@@ -314,6 +314,10 @@ footer {
     cursor: pointer;
 }
 
+.footer-container .form .btn:focus {
+    outline: none;
+}
+
 .footer-container .form p {
     color: var(--DarkGrayishBlue); 
 }
