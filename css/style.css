@@ -300,6 +300,10 @@ footer {
     margin-right: 5px;
 }
 
+.footer-container .form input[type="email"]:focus {
+    outline: none;
+}
+
 .footer-container .form .btn {
     border: none;
     padding: 12px 20px;
