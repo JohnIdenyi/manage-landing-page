@@ -36,23 +36,28 @@ body {
     padding: 10px 15px;
     border-radius: 20px;
 }
-.error-msg {
-    margin: 10px 0;
-}
 
 .btn:hover {
     background-color: var(--DarkBlue);
     color: var(--VaryLightGray);
 }
 
+.error-msg {
+    margin: 10px 0;
+}
+
 header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
     padding: 40px 0;
 }
 
 header nav ul {
     display: flex;
+    align-items: center;
+    justify-content: center;
     list-style: none;
 }
 
@@ -61,6 +66,20 @@ nav ul a {
     color: var(--DarkBlue);
     padding-left: 30px;
     font-weight: 700;
+}
+
+nav ul a:hover {
+    color: var(--DarkGrayishBlue);
+}
+
+
+.hamburger {
+    background-color: transparent;
+    border: 0;
+    display: none;
+    color: var(--DarkBlue);
+    font-size: 30px;
+    cursor: pointer;
 }
 
 /* Hero section */
@@ -302,7 +321,26 @@ footer {
     }
 
     header nav {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    header nav ul {
         display: none;
+        flex-direction: column;
+    }
+
+    nav ul li a {
+        display: block;
+        padding-top: 10px;
+    }    
+
+    .nav-ul.show {
+        display: flex;
+    }
+
+    .hamburger {
+        display: block;
     }
 
     header .nav-button {
