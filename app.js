@@ -21,6 +21,7 @@ function validateForm(e) {
 function showInfo(msg, color) {
     errorMsg.textContent = msg;
     errorMsg.style.color = color;
+    emailInput.value = "";
 
     // Clear message after 3 secs
     setTimeout(clearMessage, 3000);
