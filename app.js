@@ -1,5 +1,5 @@
-const form = document.querySelectorAll("#my-form");
-const emailInput = document.querySelectorAll("#email");
+const form = document.querySelectorAll(".my-form");
+const emailInput = document.querySelectorAll(".email");
 const errorMsg = document.querySelectorAll(".error-msg");
 const hamburger = document.querySelector(".hamburger");
 const navUl = document.querySelector(".nav-ul");
