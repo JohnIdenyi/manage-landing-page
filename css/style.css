@@ -54,6 +54,10 @@ header {
     padding: 40px 0;
 }
 
+header .logo img {
+    vertical-align: middle;
+}
+
 header nav ul {
     display: flex;
     align-items: center;
